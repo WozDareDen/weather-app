@@ -24,7 +24,7 @@ let geocodeAddress = (address) => {
     });
 };
 
-geocodeAddress('sfhsjdf').then((location)=> {
+geocodeAddress('00000').then((location)=> {
     console.log(JSON.stringify(location,undefined,2))
 }, (errorMessage) =>{
     console.log(errorMessage);
